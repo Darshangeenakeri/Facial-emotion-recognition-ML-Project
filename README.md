@@ -4,12 +4,12 @@ This project implements a **real-time facial emotion recognition system** using 
 It can detect faces from a webcam or uploaded images and classify them into 7 emotions.
 
 ## 🎯 Features
-- Real-time face detection using Haar Cascade Classifier.
-- Emotion classification into **anger, contempt, disgust, fear, happiness, sadness, surprise**.
-- GUI built with **PyQt5** for easy interaction.
-- Option to test on images or webcam feed.
-- Logs detected emotions with timestamps using **Pandas**.
-- Generates emotion trend visualization with **Matplotlib**.
+- Real-time face detection using Haar Cascade Classifier.  
+- Emotion classification into **anger, contempt, disgust, fear, happiness, sadness, surprise**.  
+- GUI built with **PyQt5** for easy interaction.  
+- Option to test on images or webcam feed.  
+- Logs detected emotions with timestamps using **Pandas**.  
+- Generates emotion trend visualization with **Matplotlib**.  
 
 ## 🛠️ Technologies Used
 - Python 3  
@@ -20,20 +20,23 @@ It can detect faces from a webcam or uploaded images and classify them into 7 em
 - Matplotlib  
 
 ## 🚀 How to Run
-1. Clone the repository and navigate to the project folder.
-2. Install required dependencies:
+1. Clone the repository and navigate to the project folder.  
+2. Install required dependencies:  
    ```bash
    pip install -r requirements.txt
-   ```
-3. Run the project:
+   ```  
+3. Run the project:  
    ```bash
    python "main code.py"
-   ```
-4. Use the GUI to start detection via webcam or upload an image.
+   ```  
+4. Use the GUI to start detection via webcam or upload an image.  
 
-## 📸 Screenshots
-### GUI Interface  
-![GUI Interface](output%202.png)
+## 📸 Screenshots  
+
+### Emotion Trend Graph  
+This graph shows the detected emotions over time, plotted using **Matplotlib**.  
+
+![Emotion Trend Graph](output%202.png)  
 
 ## 📂 Project Structure
 ```
@@ -41,7 +44,7 @@ It can detect faces from a webcam or uploaded images and classify them into 7 em
 ├── main code.py                  # Main application with PyQt5 GUI
 ├── model.h5                      # Pre-trained CNN model for emotion recognition
 ├── haarcascade_frontalface_default.xml   # Face detection cascade
-├── output 2.png                  # Example screenshot
+├── output 2.png                  # Emotion trend graph example
 └── README.md                     # Project documentation
 ```
 
@@ -52,4 +55,5 @@ It can detect faces from a webcam or uploaded images and classify them into 7 em
 - Educational tools to study emotional response  
 
 ---
+
 ✨ Developed as a Machine Learning project for real-time **Facial Emotion Recognition**.
